@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형 웹사이트</title>
+    <!-- rwd.html 파일을 만드시오 -->
+    <style>
+        * { margin: 0; padding: 0; }
+
+       /* 599 이하*/
+        @media screen and (max-width: 599px) {
+            body { background: #f9ceff; }
+        }
+
+
+         /* 600px - 1199px*/
+        @media screen and (min-width: 600px) {
+            body { background: #5d669c; }
+            h1 { color: white; }
+        }       
+
+        /* 1200px 이상 */
+        @media screen and (min-width: 1200px) {
+            body { background: rgb(115, 189, 119); }
+        }
+
+
+ 
+        
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>제목</h1>
+    </header>
+    <main id="container"></main>
+    <footer id="footer"></footer>
+</body>
+</html>
